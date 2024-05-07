@@ -12,7 +12,7 @@ conda create -n ag python=3.11
 # im using zsh in this case
 conda init zsh 
 conda activate ag
-# install autogen with pip
+# install autogen with pip - You might need evalated rights with sudo
 pip install autogen
  ```
 
