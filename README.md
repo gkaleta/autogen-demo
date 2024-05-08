@@ -65,5 +65,21 @@ INFO:     10.240.2.23:0 - "GET /component---src-pages-build-tsx-2e117a4aac3139c7
 Remember to setup you URL so it looks like: 
 
 ```bash
-https://{resource}.openai.azure.com/openai/deployments/{deployment}/chat/completions?api-version=2023-03-15-preview
+https://{resource}.openai.azure.com/openai/deployments/{deployment}/chat/completions?api-version=2024-02-01
 ```
+
+
+## Seting up models in Autogen:
+
+Give your model a name.
+Get your Azure OpenAI key![Screenshot 2024-05-08 at 09 42 43](https://github.com/gkaleta/autogen-demo/assets/22896482/30c3495d-81bb-4ce8-935a-003fa8ba7dab)
+
+When using Azure OpenAI you need to fill all boxes out:
+Give it a name. 
+API Key - get the key from the Azure portal or Azure OpenAI portal. 
+API Type should have: Azure. 
+Base url should look like the one mentioned above - remember to update the API version which can be found in Azure Docs for OpenAI.
+Api version should be in the format of: 2024-02-01. Description can be what ever you want it to be. 
+
+
+
