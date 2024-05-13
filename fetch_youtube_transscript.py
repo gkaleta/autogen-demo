@@ -1,7 +1,15 @@
 from youtube_transcript_api import YouTubeTranscriptApi  
 from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound  
 import re  
-  
+
+
+#### update accordingly
+#llm_config = {
+#    "config_list": [{"model": "gpt-4", "api_key": os.environ["OPENAI_API_KEY"]}],
+#}
+
+
+
 def extract_video_id(youtube_url: str) -> str:  
     """  
     Extracts the video ID from a YouTube URL.  
