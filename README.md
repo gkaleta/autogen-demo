@@ -1,6 +1,6 @@
 # Fast demo on how to setup Autogen
 
-### Install Anaconda
+### Install Anaconda if you desire to you it or GitHub code spaces
 
 ```bash
 brew install --cask anaconda     
@@ -20,6 +20,9 @@ pip install autogen
 ```bash
 export AZURE_OPENAI_API_KEY=your_azure_api_key_here
 ```
+> [!NOTE]
+> AutoGen is still in Beta. If you get an error while trying to use an Azure Open AI key but the error msg is for OpenAI, delete all settings and try again, avoid making any mistakes/typos as it's sensitive.
+
 
 ### Install the Autogen Studio 2.0
 
